@@ -1,0 +1,101 @@
+2026-04-10 21:09:29 [TestNG-PoolService-1] INFO  Hooks - STARTING TEST: Add product to cart and validate
+2026-04-10 21:09:29 [TestNG-PoolService-5] INFO  Hooks - STARTING TEST: Register a new user successfully
+2026-04-10 21:09:29 [TestNG-PoolService-2] INFO  Hooks - STARTING TEST: Remove product from cart and validate
+2026-04-10 21:09:29 [TestNG-PoolService-3] INFO  Hooks - STARTING TEST: Login with valid credentials
+2026-04-10 21:09:29 [TestNG-PoolService-4] INFO  Hooks - STARTING TEST: Login with invalid credentials
+2026-04-10 21:09:29 [TestNG-PoolService-5] INFO  DriverFactory - Initializing browser..
+2026-04-10 21:09:29 [TestNG-PoolService-2] INFO  DriverFactory - Initializing browser..
+2026-04-10 21:09:29 [TestNG-PoolService-1] INFO  DriverFactory - Initializing browser..
+2026-04-10 21:09:29 [TestNG-PoolService-3] INFO  DriverFactory - Initializing browser..
+2026-04-10 21:09:29 [TestNG-PoolService-4] INFO  DriverFactory - Initializing browser..
+2026-04-10 21:09:46 [TestNG-PoolService-1] INFO  DriverFactory - Firefox driver launched successfully
+2026-04-10 21:09:47 [TestNG-PoolService-1] INFO  HomePage - Opening the base URL
+2026-04-10 21:09:53 [TestNG-PoolService-5] INFO  DriverFactory - Firefox driver launched successfully
+2026-04-10 21:09:54 [TestNG-PoolService-5] INFO  HomePage - Opening the base URL
+2026-04-10 21:10:06 [TestNG-PoolService-4] INFO  DriverFactory - Firefox driver launched successfully
+2026-04-10 21:10:06 [TestNG-PoolService-4] INFO  HomePage - Opening the base URL
+2026-04-10 21:10:07 [TestNG-PoolService-2] INFO  DriverFactory - Firefox driver launched successfully
+2026-04-10 21:10:08 [TestNG-PoolService-2] INFO  HomePage - Opening the base URL
+2026-04-10 21:10:24 [TestNG-PoolService-3] INFO  DriverFactory - Firefox driver launched successfully
+2026-04-10 21:10:25 [TestNG-PoolService-1] INFO  HomePage - Navigating to signup/login page
+2026-04-10 21:10:25 [TestNG-PoolService-3] INFO  HomePage - Opening the base URL
+2026-04-10 21:10:27 [TestNG-PoolService-5] INFO  HomePage - Navigating to signup/login page
+2026-04-10 21:10:32 [TestNG-PoolService-1] INFO  LoginPage - Validating login URL
+2026-04-10 21:10:32 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until URL contains : login
+2026-04-10 21:10:33 [TestNG-PoolService-1] INFO  LoginPage - Entering email : valid@test.com and password : karthik
+2026-04-10 21:10:35 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='login-button']
+2026-04-10 21:10:35 [TestNG-PoolService-5] INFO  LoginPage - Validating login URL
+2026-04-10 21:10:35 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until URL contains : login
+2026-04-10 21:10:36 [TestNG-PoolService-5] INFO  LoginPage - Validating SignUp text
+2026-04-10 21:10:36 [TestNG-PoolService-1] INFO  LoginPage - Clicking login button
+2026-04-10 21:10:37 [TestNG-PoolService-5] INFO  LoginPage - Entering name : Karthik and email : temp@test.com
+2026-04-10 21:10:38 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='signup-button']
+2026-04-10 21:10:38 [TestNG-PoolService-5] INFO  LoginPage - Clicking signup button and navigating to enter user details
+2026-04-10 21:10:45 [TestNG-PoolService-5] INFO  SignupPage - Validating signup URL
+2026-04-10 21:10:45 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until URL contains : signup
+2026-04-10 21:10:46 [TestNG-PoolService-5] INFO  SignupPage - Entering account information
+2026-04-10 21:10:50 [TestNG-PoolService-5] INFO  SignupPage - Entering additional information
+2026-04-10 21:10:53 [TestNG-PoolService-2] INFO  HomePage - Navigating to signup/login page
+2026-04-10 21:10:55 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/products']
+2026-04-10 21:10:56 [TestNG-PoolService-1] INFO  ProductPage - Navigating to products page
+2026-04-10 21:10:56 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='create-account']
+2026-04-10 21:10:57 [TestNG-PoolService-5] INFO  SignupPage - Submitting the details
+2026-04-10 21:11:08 [TestNG-PoolService-4] INFO  HomePage - Navigating to signup/login page
+2026-04-10 21:11:09 [TestNG-PoolService-2] INFO  LoginPage - Validating login URL
+2026-04-10 21:11:09 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until URL contains : login
+2026-04-10 21:11:09 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element visible : By.xpath: //b[text()='Account Created!']
+2026-04-10 21:11:12 [TestNG-PoolService-2] INFO  LoginPage - Entering email : valid@test.com and password : karthik
+2026-04-10 21:11:12 [TestNG-PoolService-4] INFO  LoginPage - Validating login URL
+2026-04-10 21:11:12 [TestNG-PoolService-4] INFO  WaitUtil - Waiting until URL contains : login
+2026-04-10 21:11:12 [TestNG-PoolService-4] INFO  LoginPage - Validating Login text
+2026-04-10 21:11:12 [TestNG-PoolService-4] INFO  LoginPage - Entering email : invalid@test.com and password : karthik
+2026-04-10 21:11:13 [TestNG-PoolService-4] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='login-button']
+2026-04-10 21:11:13 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@data-qa='continue-button']
+2026-04-10 21:11:13 [TestNG-PoolService-4] INFO  LoginPage - Clicking login button
+2026-04-10 21:11:14 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/product_details/1']
+2026-04-10 21:11:14 [TestNG-PoolService-4] INFO  WaitUtil - Waiting until element visible : By.xpath: //p[text()='Your email or password is incorrect!']
+2026-04-10 21:11:15 [TestNG-PoolService-4] INFO  LoginPage - Validating invalid details
+2026-04-10 21:11:15 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='login-button']
+2026-04-10 21:11:15 [TestNG-PoolService-1] INFO  ProductPage - Selecting the product
+2026-04-10 21:11:16 [TestNG-PoolService-2] INFO  LoginPage - Clicking login button
+2026-04-10 21:11:16 [TestNG-PoolService-3] INFO  HomePage - Navigating to signup/login page
+2026-04-10 21:11:20 [TestNG-PoolService-3] INFO  LoginPage - Validating login URL
+2026-04-10 21:11:20 [TestNG-PoolService-3] INFO  WaitUtil - Waiting until URL contains : login
+2026-04-10 21:11:21 [TestNG-PoolService-3] INFO  LoginPage - Validating Login text
+2026-04-10 21:11:21 [TestNG-PoolService-3] INFO  LoginPage - Entering email : valid@test.com and password : karthik
+2026-04-10 21:11:22 [TestNG-PoolService-1] INFO  ProductPage - Adding the product to cart
+2026-04-10 21:11:23 [TestNG-PoolService-3] INFO  WaitUtil - Waiting until element clickable : By.xpath: //button[@data-qa='login-button']
+2026-04-10 21:11:23 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element visible : By.xpath: //*[@id='header']/div/div/div/div[2]/div/ul/li[10]/a/b
+2026-04-10 21:11:23 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until element visible : By.xpath: //u[text()='View Cart']
+2026-04-10 21:11:24 [TestNG-PoolService-5] INFO  HomePage - Validating the user account with username
+2026-04-10 21:11:24 [TestNG-PoolService-3] INFO  LoginPage - Clicking login button
+2026-04-10 21:11:24 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/delete_account']
+2026-04-10 21:11:24 [TestNG-PoolService-1] INFO  CartPage - Navigating to cart page
+2026-04-10 21:11:25 [TestNG-PoolService-5] INFO  HomePage - Deleting the account created
+2026-04-10 21:11:26 [TestNG-PoolService-1] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/product_details/1']
+2026-04-10 21:11:28 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element visible : By.xpath: //b[text()='Account Deleted!']
+2026-04-10 21:11:29 [TestNG-PoolService-5] INFO  HomePage - Validating the account deleted
+2026-04-10 21:11:30 [TestNG-PoolService-5] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@data-qa='continue-button']
+2026-04-10 21:11:33 [TestNG-PoolService-3] INFO  WaitUtil - Waiting until element visible : By.xpath: //*[@id='header']/div/div/div/div[2]/div/ul/li[10]/a/b
+2026-04-10 21:11:33 [TestNG-PoolService-3] INFO  HomePage - Validating the user account with username
+2026-04-10 21:11:36 [TestNG-PoolService-4] INFO  Hooks - ENDING TEST: Login with invalid credentials
+
+2026-04-10 21:11:44 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/products']
+2026-04-10 21:11:45 [TestNG-PoolService-2] INFO  ProductPage - Navigating to products page
+2026-04-10 21:11:46 [TestNG-PoolService-3] INFO  Hooks - ENDING TEST: Login with valid credentials
+
+2026-04-10 21:11:46 [TestNG-PoolService-1] INFO  Hooks - ENDING TEST: Add product to cart and validate
+
+2026-04-10 21:12:09 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/product_details/1']
+2026-04-10 21:12:09 [TestNG-PoolService-2] INFO  ProductPage - Selecting the product
+2026-04-10 21:12:10 [TestNG-PoolService-5] INFO  Hooks - ENDING TEST: Register a new user successfully
+
+2026-04-10 21:12:11 [TestNG-PoolService-2] INFO  ProductPage - Adding the product to cart
+2026-04-10 21:12:11 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element visible : By.xpath: //u[text()='View Cart']
+2026-04-10 21:12:12 [TestNG-PoolService-2] INFO  CartPage - Navigating to cart page
+2026-04-10 21:12:13 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element clickable : By.xpath: //a[@href='/product_details/1']
+2026-04-10 21:12:13 [TestNG-PoolService-2] INFO  CartPage - Removing product from cart
+2026-04-10 21:12:13 [TestNG-PoolService-2] INFO  WaitUtil - Waiting until element visible : By.xpath: //b[text()='Cart is empty!']
+2026-04-10 21:12:14 [TestNG-PoolService-2] INFO  CartPage - Validating empty cart
+2026-04-10 21:12:21 [TestNG-PoolService-2] INFO  Hooks - ENDING TEST: Remove product from cart and validate
+
