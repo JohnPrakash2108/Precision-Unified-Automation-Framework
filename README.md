@@ -144,8 +144,8 @@ OR download manually and add `/bin` to PATH.
 ## 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/KarthikArava/Hybrid-Automation-Framework.git
-cd hybrid-automation-framework
+git clone https://github.com/JohnPrakash2108/Precision-Unified-Automation-Framework.git
+cd Precision-Unified-Automation-Framework
 ```
 
 ---
